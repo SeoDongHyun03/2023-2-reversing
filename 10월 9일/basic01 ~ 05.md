@@ -1,4 +1,4 @@
-![image](https://github.com/SeoDongHyun03/2023-2-reversing/assets/147243131/b2dc3c7b-7134-405e-a71d-806c9243d1f3)# basic 1번 #
+# basic 1번 #
 01.exe를 실행하면 다음과 같은 창들이 나온다.   
 <img src="./basic 01/1-1.jpg"> <img src="./basic 01/1-2.jpg">   
 그리고 디버깅을 하면 다음과 같은 코드가 나온다.   
