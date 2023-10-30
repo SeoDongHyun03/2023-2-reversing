@@ -51,7 +51,19 @@ wrong serial은 우리가 아까 잘못된 값을 입력했을 때 나왔던 창
 그런데 문제는 **CodeEngn은 'ß어떤것'으로 변경되는가**입니다. 그래서 시리얼을 자세히 봤는데, **L2C-5781EqfgEngn4562-ABEX**였습니다. 중간에 Engn이 있는 것으로 보면 CodeEngn이 들어간 것 같은데, CodeEngn이 **EqfgEngn**으로 바뀌어있었습니다.  
 따라서 정답은 **EqfgEngn**입니다.  
 
-# 8번
+# 8번  
+이 프로그램을 실행하면 다음과 같은 계산기 프로그램이 나옵니다.  
+<img src="./basic 08/8-1.jpg">  
+우선 이 문제는 **OEP**를 구하는 문제이기 때문에 basic 07과 똑같은 문제입니다.  
+근데 저는 basic 07은 직접 breakpoint를 걸어서 풀었는데, 이번에는 **프로그램**을 사용하여 풀어보겠습니다.(https://koharinn.tistory.com/487 https://blueochild.tistory.com/entry/UPX-%EC%96%B8%ED%8C%A8%ED%82%B9-%ED%95%98%EB%8A%94%EB%B2%95 참고)  
+먼저 **PEiD**를 사용하여 어떤 방식으로 패킹돼있는지 확인했습니다.  
+<img src="./basic 08/8-2.jpg">  
+**UPX**로 패킹돼있습니다.  
+그래서 UPX를 언패킹했습니다.  
+<img src="./basic 08/8-3.jpg">  
+그리고 x64dbg를 사용하여 프로그램을 실행하면, 다음과 같이 OEP를 쉽게 구할 수 있습니다.  
+<img src="./basic 08/8-4.jpg">  
+따라서 OEP는 **01012475** 입니다.  
 
 # 9번
 
