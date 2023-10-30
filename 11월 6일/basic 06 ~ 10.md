@@ -65,6 +65,23 @@ wrong serial은 우리가 아까 잘못된 값을 입력했을 때 나왔던 창
 <img src="./basic 08/8-4.jpg">  
 따라서 OEP는 **01012475** 입니다.  
 
-# 9번
+# 9번  
+이 프로그램을 실행하면 다음과 같은 창이 나옵니다.  
+<img src="./basic 09/9-1.jpg"> <img src="./basic 09/9-2.jpg">  
+이 문제는 **StolenByte**을 구하는 문제입니다.  
+StolenByte가 무엇인지 찾아봤습니다.(https://oopsys.tistory.com/179 참고)  
+StolenByte는 **패커가 위치를 이동시킨 코드**이고, 쉽게 말하면 훔친 코드입니다. 그래서 **OEP에 들어가기 전에 스택에 PUSH**를 한 것이 StolenByte라고 합니다.  
+그래서 basic 07처럼 OEP를 찾았습니다.  
+<img src="./basic 09/9-3.jpg">  
+lea 명령어 위에 push명령어 3개가 있는 것을 볼 수 있는데, 이것들이 StolenByte 입니다.  
+따라서 답은 **6A0068002040006812204000**입니다.  
+그런데 다른 사람들의 풀이를 보니까, 언패킹을 했을 때 메세지 창이 오류가 나오는 것을 보고 저도 한번 해봤습니다.  
+우선 PEiD를 통해 UPX로 패킹돼있는지 확인합니다.  
+<img src="./basic 09/9-4.jpg">  
+UPX로 패킹돼있으므로, 언패킹을 합니다.  
+<img src="./basic 09/9-5.jpg">  
+그리고 실행을 하면 다음과 같이 메세지 창의 글씨가 깨져서 나옵니다.  
+<img src="./basic 09/9-6.jpg">  
+
 
 # 10번 
