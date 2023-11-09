@@ -11,7 +11,7 @@
 역시 stolenbyte가 있었다. stolenbyte는 **6A0068002040006812204000** 이다.  
 그리고 jmp의 주소로 들어가면 다음과 같은 화면이 나온다.  
 <img src="./11-5.jpg">  
-(https://brainfreeee.tistory.com/35 참고)
+(https://brainfreeee.tistory.com/35 참고)  
 원래는 위의 nop에 stolenbyte가 있어야 한다. 그러나 패킹을 방해하기 위해 고의로 stolenbyte를 만드는 것입니다. 원래대로 복구하기 위해 다음과 같이 nop은 부분에 stolenbyte를 적어줍니다.  
 <img src="./11-6.jpg">  
 입력하면, 다음과 같이 코드가 만들어집니다.  
