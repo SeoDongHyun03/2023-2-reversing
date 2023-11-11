@@ -1,7 +1,7 @@
 # Basic RCE L14  
 문제는 Name이 CodeEngn 일때 **Serial**을 구하는 문제입니다.  
 바로 프로그램을 실행했습니다.  
-<img src="14-1.jpg"> <img sr="14-2.jpg">  
+<img src="14-1.jpg"> <img src="14-2.jpg">  
 전에 나오던 문제랑 비슷하게, 2가지(name, serial)을 입력하는 창이 나와서 아무거나 입력했는데, 역시 실패구문이 나왔습니다.  
 그래서 디버깅을 했습니다.  
 <img src="14-3.jpg">  
