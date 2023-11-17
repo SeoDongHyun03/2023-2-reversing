@@ -1,4 +1,4 @@
-![image](https://github.com/SeoDongHyun03/2023-2-reversing/assets/147243131/81bf5f2a-0e62-4d2d-8236-4464bb7a7fa3)# Basic RCE L16  
+# Basic RCE L16  
 이번 문제는 **Name이 CodeEngn일때 Serial**을 구하는 문제입니다.  
 우선 파일을 실행했습니다.  
 <img src="16-1.jpg"> <img src="16-2.jpg">  
