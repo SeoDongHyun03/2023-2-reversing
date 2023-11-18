@@ -36,7 +36,7 @@ cmp eax, eax를 실행하면, eax는 eax와 같기 때문에 ZF가 1로 설정�
 기능은 시스템 시간을 return합니다.  
 결론적으로 현재 시간이 얼마나 지났는지 체크하는 함수입니다.  
 <img src="19-11.jpg">  
-일단, 이 함수에 전부 breakpoing를 걸었습니다.  
+일단, 이 함수에 전부 breakpoint를 걸었습니다.  
 그리고 프로그램을 실행했을 때, 다음 위치로 이동했습니다.  
 <img src="19-12.jpg">  
 이 코드는 timeGetTime을 edi로 옮기는 코드입니다.  
